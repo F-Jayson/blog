@@ -1085,8 +1085,8 @@ CDN:
     # activate_power_mode:
     # algolia_js:
     # algolia_search:
-    # artalk_css:
-    # artalk_js:
+    artalk_css: https://comments.blog-jayson.com/dist/Artalk.css
+    artalk_js: https://comments.blog-jayson.com/dist/Artalk.js
     # blueimp_md5:
     # busuanzi:
     # canvas_fluttering_ribbon:
