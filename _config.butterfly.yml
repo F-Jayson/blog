@@ -64,10 +64,10 @@ avatar:
 disable_top_img: false
 
 # 页面未设置横幅图片时，将显示 default_top_img
-default_top_img: /img/background.webp
+default_top_img: 'https://blog-jayson.com/blog-jayson/img/user-assets/5/msj0a53j-0cda798fac3704a0.webp'
 
 # 首页横幅图片
-index_img: /img/background.webp
+index_img: 'https://blog-jayson.com/blog-jayson/img/user-assets/5/msj0a53j-0cda798fac3704a0.webp'
 
 # 归档页横幅图片
 archive_img:

@@ -9,7 +9,7 @@ tags:
   - Hexo
   - GitHub Pages
   - Butterfly
-cover: /img/background.webp
+cover: 'https://blog-jayson.com/blog-jayson/img/user-assets/5/msj0a53j-0cda798fac3704a0.webp'
 ---
 
 这个博客使用 Hexo 生成静态页面，以 Butterfly 作为主题，并通过 GitHub Actions 自动发布到 GitHub Pages。本文记录它的基本结构和发布流程，也作为博客中的第一篇示例文章。
