@@ -534,14 +534,14 @@ comments:
   # 不需要评论功能时请留空
   # 可选值：Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # 配置两个评论系统时的格式：Disqus,Waline
-  use:
+  use: Artalk
   # 在按钮旁显示评论系统名称
   text: true
   # 懒加载：评论元素进入浏览器可视区域时才加载评论系统
   # 设为 true 时，评论数量将无法正常显示
   lazyload: false
   # 在文章 top_img 中显示评论数量
-  count: false
+  count: true
   # 在首页显示评论数量
   card_post_count: false
 
@@ -649,11 +649,12 @@ remark42:
 # Artalk 评论系统
 # https://artalk.js.org/guide/frontend/config.html
 artalk:
-  server:
-  site:
+  server: https://comments.blog-jayson.com
+  site: Jayson-Blog
   # 使用 Artalk 访问量作为页面浏览量
-  visitor: false
+  visitor: true
   option:
+    locale: zh-CN
 
 # --------------------------------------
 # 在线聊天服务
