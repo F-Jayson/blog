@@ -486,7 +486,7 @@ search:
   # 本地搜索
   local_search:
     # 页面加载时预加载搜索数据
-    preload: false
+    preload: true
     # 每篇文章显示前 n 条结果，设为 -1 时显示全部结果
     top_n_per_article: 3
     # 将转义后的 HTML 字符串还原为可读内容
@@ -1012,7 +1012,7 @@ instantpage: false
 # 图片懒加载
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: true
+  enable: false
   # 使用浏览器原生懒加载代替 vanilla-lazyload
   native: true
   # 指定懒加载范围（site 或 post）
