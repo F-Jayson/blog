@@ -278,7 +278,7 @@ aside:
   button: true
   mobile: true
   # 位置：left / right
-  position: right
+  position: left
   display:
     archive: true
     tag: true
@@ -302,9 +302,9 @@ aside:
     sort: date
     sort_order:
   card_newest_comments:
-    enable: false
+    enable: true
     sort_order:
-    limit: 6
+    limit: 5
     # 单位：分钟，数据保存到 localStorage
     storage: 10
     avatar: true
@@ -430,7 +430,7 @@ copy:
 
 # 需要安装 hexo-wordcount 插件
 wordcount:
-  enable: false
+  enable: true
   # 在文章元数据中显示文章字数
   post_wordcount: true
   # 在文章元数据中显示阅读时长
