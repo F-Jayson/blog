@@ -64,10 +64,10 @@ avatar:
 disable_top_img: false
 
 # 页面未设置横幅图片时，将显示 default_top_img
-default_top_img: /img/background.png
+default_top_img: /img/background.webp
 
 # 首页横幅图片
-index_img: /img/background.png
+index_img: /img/background.webp
 
 # 归档页横幅图片
 archive_img:
